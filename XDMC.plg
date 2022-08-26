@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XDMC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+/nologo /Gz /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_UNICODE" /D "UNICODE" /D "XDMC_EXPORTS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\CXDMC.CPP"
+"D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\LOG.CPP"
+"D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib dmc32.lib /nologo /base:"0x20000000" /dll /incremental:no /pdb:"Release/XDMC.pdb" /machine:I386 /def:".\XDMC.def" /out:"Release/XDMC.dll" /implib:"Release/XDMC.lib" 
+".\Release\CXDMC.OBJ"
+".\Release\LOG.OBJ"
+".\Release\XDMC.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2E.tmp"
+<h3>Output Window</h3>
+Compiling...
+CXDMC.CPP
+LOG.CPP
+XDMC.cpp
+Generating Code...
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(233) : warning C4715: 'XDMC_Init' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(392) : warning C4715: 'XDMC_SendCmd' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(586) : warning C4715: 'XDMC_GetMotorBusy' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(773) : warning C4715: 'XDMC_GetAllMotorsBusy' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(705) : warning C4700: local variable 'command' used without having been initialized
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(897) : warning C4715: 'XDMC_MotorGetPos' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1008) : warning C4715: 'XDMC_MotorInit' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1115) : warning C4715: 'XDMC_MotorEnable' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1201) : warning C4715: 'XDMC_MotorSetSpd' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1289) : warning C4715: 'XDMC_MotorSetAC' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1375) : warning C4715: 'XDMC_MotorSetDC' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1470) : warning C4715: 'XDMC_MotorSetStartPos' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1570) : warning C4715: 'XDMC_MotorSetStartPosArray' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1661) : warning C4715: 'XDMC_MotorSetStandbyPos' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1752) : warning C4715: 'XDMC_MotorSetStandbyMotion' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1845) : warning C4715: 'XDMC_MotorSetStartMotion' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(1933) : warning C4715: 'XDMC_STOP' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2034) : warning C4715: 'XDMC_MoveStandby' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2112) : warning C4715: 'XDMC_MoveSTARDBY' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2210) : warning C4715: 'XDMC_SetMotorCycleCount' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2139) : warning C4700: local variable 'command' used without having been initialized
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2307) : warning C4715: 'XDMC_GetMotorCycleCount' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2377) : warning C4715: 'XDMC_GetModLive' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2489) : warning C4715: 'XDMC_SetModLive' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2563) : warning C4715: 'XDMC_DownloadSystemFile' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2602) : warning C4715: 'XDMC_ModReset' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2690) : warning C4715: 'XDMC_Close' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2801) : warning C4715: 'XDSP_GetAppFlags' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(2899) : warning C4715: 'XDSP_GetInputFlag' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3016) : warning C4715: 'XDSP_StartIndexer' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3207) : warning C4715: 'XDSP_GetMotionStatus' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3368) : warning C4715: 'XDMC_GetMotionStatus' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3457) : warning C4715: 'XDSP_SetAppFlag' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3568) : warning C4715: 'XDSP_SetOutput' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3658) : warning C4715: 'XDSP_SetPunchArray' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3739) : warning C4715: 'XDSP_SetCutterCount' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3845) : warning C4715: 'XDSP_ManualMove' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(3939) : warning C4715: 'XDMC_JOG' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(4064) : warning C4715: 'XNWC_Start' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(4217) : warning C4715: 'XNWC_SetData' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(4375) : warning C4715: 'XNWC_GetData' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(4517) : warning C4715: 'XNWC_GetAppFlags' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(4658) : warning C4715: 'XNWC_SetAppFlag' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(4813) : warning C4715: 'XNWC_SetMotion' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(5020) : warning C4715: 'XNWC_TroubleShoot' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(5150) : warning C4715: 'XNWC_SetArray' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(5371) : warning C4715: 'XNWC_GetArray' : not all control paths return a value
+D:\Tasks\NWC\DLL\XDMC\XDMC 1 OCT_10\XDMC.cpp(5486) : warning C4715: 'XNWC_SetOutput' : not all control paths return a value
+Linking...
+   Creating library Release/XDMC.lib and object Release/XDMC.exp
+
+
+
+<h3>Results</h3>
+XDMC.dll - 0 error(s), 48 warning(s)
+</pre>
+</body>
+</html>
